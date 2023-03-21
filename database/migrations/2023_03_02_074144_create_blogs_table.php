@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('blogdescription');
             $table->string('postedby');
             $table->string('date');
+            $table->timestamps();
         });
     }
 
@@ -29,6 +30,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('blogs');
+        Schema::dropIfExists('Main_Models');
     }
 };

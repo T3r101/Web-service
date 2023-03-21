@@ -7,5 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class MainModel extends Model
 {
-    use HasFactory;
+    use HasFactory; 
+    protected $fillable = [
+        'blogtitle',
+        'blogdescription',
+        'postedby',
+        'date'
+    ];
 }
