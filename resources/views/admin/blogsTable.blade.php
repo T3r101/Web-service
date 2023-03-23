@@ -19,7 +19,7 @@
                             <table class="table">
                                 <thead>
                                     <tr>
-                                        <th>id</th>
+                                        <th>Id</th>
                                         <th>Blogstitle</th>
                                         <th>Description</th>
                                         <th>Postedby</th>

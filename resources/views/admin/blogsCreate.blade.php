@@ -9,13 +9,13 @@
       
     <form action="{{url('/admin')}}" method="post">
         {!! csrf_field() !!}
-        <label>title</label></br>
+        <label>Title</label></br>
         <input type="text" name="blogtitle" id="text" class="form-control"></br>
-        <label>description</label></br>
+        <label>Description</label></br>
         <input type="text" name="blogdescription" id="text" class="form-control"></br>
-        <label>post</label></br>
+        <label>Post</label></br>
         <input type="text" name="postedby" id="text" class="form-control"></br>
-        <label>date</label></br>
+        <label>Date</label></br>
         <input type="text" name="date" id="paragraph" class="form-control"></br>
         <input type="submit" value="Save" class="btn btn-success"></br>
     </form>
